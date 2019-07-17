@@ -12,7 +12,6 @@
                             {!! implode('<br>', $errors->all()) !!}
                         </div>
                     @endif
-
                     <a href="{{ url('admin/articles/create') }}" class="btn btn-lg btn-primary">新增</a>
 
                     @foreach ($articles as $article)
@@ -32,10 +31,23 @@
                             <button type="submit" class="btn btn-danger">删除</button>
                         </form>
                     @endforeach
-
+                    
                 </div>
+                
             </div>
         </div>
+        {{ $articles->links() }}
     </div>
 </div>
 @endsection
+<style>
+.content {
+    border: 1px solid gray;
+    margin: 10px 0;
+}
+       .pagination {
+           position: fixed;
+           right: 120px;
+           bottom: 20px;
+       }
+    </style>

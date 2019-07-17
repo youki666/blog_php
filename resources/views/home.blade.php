@@ -12,7 +12,9 @@
     <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
        .pagination {
-           float: right;
+           position: fixed;
+           right: 50%;
+           bottom: 20px;
        }
     </style>
 </head>

@@ -24,7 +24,6 @@
                         <br>
                         <button class="btn btn-lg btn-info">提交修改</button>
                     </form>
-
                 </div>
             </div>
         </div>

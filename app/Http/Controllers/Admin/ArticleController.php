@@ -10,7 +10,7 @@ use App\Article;
 class ArticleController extends Controller
 {
     public function index(){
-        return view('admin/article/index')->withArticles(Article::all());
+        return view('admin/article/index')->withArticles(Article::paginate (5));
     }
     public function create()
     {

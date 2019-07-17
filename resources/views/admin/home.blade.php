@@ -9,7 +9,8 @@
 
                 <div class="panel-body">
 
-                    <a href="{{ url('admin/articles') }}" class="btn btn-lg btn-success col-xs-12">管理文章</a>
+                    <a href="{{ url('admin/articles') }}" class="btn btn-md btn-success col-xs-12">管理文章</a>
+                    <a href="{{ url('admin/comments') }}" class="btn btn-md btn-success col-xs-12">管理评论</a>
 
                 </div>
             </div>

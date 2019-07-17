@@ -93,7 +93,6 @@
                             <a href="#new" onclick="reply(this);">回复</a>
                         </div>
                     </div>
-
                 @endforeach
             </div>
         </div>
